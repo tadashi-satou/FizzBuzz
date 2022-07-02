@@ -1,6 +1,5 @@
 
 public class FizzBuzz {
-
 	public static void main(String[] args) {
 		//1から100までの数値をループで処理する
         for (int number = 1; number <= 100; number++) {
@@ -14,12 +13,9 @@ public class FizzBuzz {
     			//5で割り切れたら「Buzz」を出力
     			System.out.println("Buzz");
     		}else {
+    			//上記以外はそのまま「number」を出力
     			System.out.println(number);
-    			
-    		}
-        
+    		}        
         }
-
 	}
-
 }
