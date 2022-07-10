@@ -7,7 +7,8 @@ public class FizzBuzz {
     			//3と5で割り切れたら「FizzBuzz」を出力
     			System.out.println("FizzBuzz");
     		}else if(number % 3 == 0) {
-    			//3で割り切れたら「Fizz」を出力 System.out.println("Fizz");
+    			//3で割り切れたら「Fizz」を出力
+    			System.out.println("Fizz");
     		}else if(number % 5 == 0) {
     			//5で割り切れたら「Buzz」を出力
     			System.out.println("Buzz");
